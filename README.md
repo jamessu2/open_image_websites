@@ -1,5 +1,5 @@
 # open_image_websites
-Open free-image sites, and search for a specified string
+Automatically search royalty-free image site/websites, for a specified string
 
 Requirements: 
 - Open up https://www.upsplash.com
