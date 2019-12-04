@@ -27,7 +27,7 @@ To have the command persist, add the *open_image_websites* directory to `$PATH` 
 
 ## Usage
 
-To run the script, type in `search <*term*>`
+To run the script, type in `search <term>`
 
 
 
@@ -40,11 +40,11 @@ Script will open up these websites:
 - https://burst.shopify.com
 - https://www.gratisography.com
 
-and autosearch each site for the desired phrase. 
+and autosearch each site for the desired term/phrase. 
+
+(Super easy to add / remove image sites to search.)
 
 The program will then terminate.
-
-(Note: Super easy to tweak the dictionary variable to include more or less image sites to search.)
 
 
 ## Future Developments
