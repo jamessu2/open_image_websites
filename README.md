@@ -1,7 +1,7 @@
 # open_image_websites
 
 ## Motivation
-As a blog writer, whenever I finish writing and editing a post, the last step is always to search for some images / pictures, to make the post more readable.
+As a [blog](https://askmeabetterquestion.com/) writer, whenever I finish writing and editing a post, the last step is always to search for some images / pictures, to make the post more readable.
 
 And this ALWAYS involves going to my browser, typing in the same URLs to royalty-free image websites (across multiple tabs), and searching for a particular term / phrase on each site.
 
@@ -18,9 +18,9 @@ pip install -r requirements.txt
 source commands.sh
 ```
 
-**Note #1**: You also need to install the "Latest stable release" version of chromedriver, at: https://chromedriver.chromium.org/, and add it to $PATH.
+**Note #1**: You also need to install the *"Latest stable release"* version of chromedriver, at: https://chromedriver.chromium.org/, and add it to `$PATH`.
 
-**Note #2**: "source commands.sh" only sets the "search" function as a terminal command for the current terminal session; need to rerun on every new terminal session. To have the command persist, add the *open_image_websites* directory to $PATH as well.
+**Note #2**: `source commands.sh` only sets the `search` function as a terminal command for the current terminal session; need to rerun on every new terminal session. To have the command persist, add the *open_image_websites* directory to `$PATH` as well.
 
 
 
@@ -38,6 +38,7 @@ Script will open up these websites:
 - https://stocksnap.io
 - https://burst.shopify.com
 - https://www.gratisography.com
+
 and autosearch each site for the desired phrase. 
 
 The program will then terminate.
@@ -51,8 +52,8 @@ The program will then terminate.
 	- https://www.reshot.com
 	
 	Trying to retrieve their input boxes gives an *"Element not interactable"* message.
-	Tried *find_element_by_css_selector* instead of *find_elements_by_xpath*, to no avail.
+	Tried `find_element_by_css_selector` instead of `find_elements_by_xpath`, to no avail.
 
-2. Next-level functionality: Allow the user to re-search all the sites for a new term / phrase. Don't terminate until the user *quits*.
+2. Next-level functionality: Allow the user to re-search all the sites for a new term / phrase. Don't terminate until the user **quits**.
 
 	(i.e. user didn't find a picture that fit his/her needs on the initial search)
