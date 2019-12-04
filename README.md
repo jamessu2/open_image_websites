@@ -23,7 +23,7 @@ source open_image_websites.sh
 
 **Note #3**: The `source open_image_websites.sh` command only works if you're in the *open_image_websites* directory. Also, it only sets `search` as a Terminal command for the current Terminal session. (You'd need to rerun on every new Terminal session.)
 
-- To have the `search` command persist, add the *open_image_websites* directory to `$PATH`, as well as the `source open_image_websites.sh` command to *.bash_profile* / *.bashrc* (probably located in your ~ directory).
+	To have the `search` command persist, add the *open_image_websites* directory to `$PATH`, as well as the `source open_image_websites.sh` command to *.bash_profile* / *.bashrc* (probably located in your ~ directory).
 
 
 
@@ -61,4 +61,5 @@ Next-level functionality:
 	- https://www.reshot.com
 	
 	Trying to retrieve their input boxes gives an *"Element not interactable"* error message.
+	
 	Tried Python's `find_element_by_css_selector` instead of `find_elements_by_xpath`, to no avail.
