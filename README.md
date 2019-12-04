@@ -14,16 +14,16 @@ A perfect task to automate.
 git clone "https://github.com/jamessu2/open_image_websites.git"
 cd open_image_websites
 pip install -r requirements.txt
-source commands.sh
+source open_image_websites.sh
 ```
 
-**Note #1**: You need to change the file path in *commands.sh* to your own directory path.
+**Note #1**: You need to change the file path in *open_image_websites.sh* to your own directory path.
 
 **Note #2**: You also need to install the *"Latest stable release"* version of [chromedriver](https://chromedriver.chromium.org/), and add it to `$PATH`.
 
-**Note #3**: `source commands.sh` only sets the `search` function as a terminal command for the current terminal session. You'd need to rerun on every new terminal session. 
+**Note #3**: `source open_image_websites.sh` only sets the `search` function as a terminal command for the current terminal session. (You'd need to rerun on every new terminal session.) And, it only works if you're in the *open_image_websites* directory.
 
-To have the `search` command persist, add the *open_image_websites* directory to `$PATH` as well. (In which case, then you no longer need to run `source commands.sh`)
+To have the `search` command persist, add the *open_image_websites* directory to `$PATH`, as well as the `source open_image_websites.sh` command.
 
 
 
