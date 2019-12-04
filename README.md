@@ -40,11 +40,9 @@ Script will open up these websites:
 - https://burst.shopify.com
 - https://www.gratisography.com
 
-and autosearch each site for the desired term/phrase. 
+and autosearch each site for the desired term/phrase, then terminate. 
 
 (Super easy to add / remove image sites to search.)
-
-The program will then terminate.
 
 
 ## Future Developments
