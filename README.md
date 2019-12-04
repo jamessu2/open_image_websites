@@ -17,11 +17,13 @@ pip install -r requirements.txt
 source commands.sh
 ```
 
-**Note #1**: You also need to install the *"Latest stable release"* version of [chromedriver](https://chromedriver.chromium.org/), and add it to `$PATH`.
+**Note #1**: You need to change the file path in *commands.sh* to your own directory path.
 
-**Note #2**: `source commands.sh` only sets the `search` function as a terminal command for the current terminal session. You'd need to rerun on every new terminal session. 
+**Note #2**: You also need to install the *"Latest stable release"* version of [chromedriver](https://chromedriver.chromium.org/), and add it to `$PATH`.
 
-To have the command persist, add the *open_image_websites* directory to `$PATH` as well.
+**Note #3**: `source commands.sh` only sets the `search` function as a terminal command for the current terminal session. You'd need to rerun on every new terminal session. 
+
+To have the `search` command persist, add the *open_image_websites* directory to `$PATH` as well. (In which case, then you no longer need to run `source commands.sh`)
 
 
 
