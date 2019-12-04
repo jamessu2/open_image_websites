@@ -1,6 +1,5 @@
 # open_image_websites
 
-## Motivation
 As a [blog](https://askmeabetterquestion.com/) writer, whenever I finish writing a post, the last step is always to search for some images / pictures – i.e. make the post look better.
 
 And this ALWAYS involves going to my browser, typing in the same-old URLs to royalty-free image websites (across multiple tabs), and searching for a particular term / phrase on each site.
@@ -48,8 +47,8 @@ The program will then terminate.
 (Note: Super easy to tweak the dictionary variable to include more or less image sites to search.)
 
 
-### Potential Developments
-1st stage, completed Dec 4th, 2019.
+## Future Developments
+*1st stage: completed Dec 4th, 2019.*
 
 Next-level functionality:
 
