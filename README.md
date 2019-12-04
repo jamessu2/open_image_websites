@@ -1,11 +1,11 @@
 # open_image_websites
 
 ## Motivation
-As a [blog](https://askmeabetterquestion.com/) writer, whenever I finish writing and editing a post, the last step is always to search for some images / pictures, to make the post more readable.
+As a [blog](https://askmeabetterquestion.com/) writer, whenever I finish writing a post, the last step is always to search for some images / pictures – i.e. make the post look better.
 
-And this ALWAYS involves going to my browser, typing in the same URLs to royalty-free image websites (across multiple tabs), and searching for a particular term / phrase on each site.
+And this ALWAYS involves going to my browser, typing in the same-old URLs to royalty-free image websites (across multiple tabs), and searching for a particular term / phrase on each site.
 
-Perfect situation to automate.
+A perfect task to automate.
 
 
 
@@ -18,9 +18,11 @@ pip install -r requirements.txt
 source commands.sh
 ```
 
-**Note #1**: You also need to install the *"Latest stable release"* version of chromedriver, at: https://chromedriver.chromium.org/, and add it to `$PATH`.
+**Note #1**: You also need to install the *"Latest stable release"* version of [chromedriver](https://chromedriver.chromium.org/), and add it to `$PATH`.
 
-**Note #2**: `source commands.sh` only sets the `search` function as a terminal command for the current terminal session; need to rerun on every new terminal session. To have the command persist, add the *open_image_websites* directory to `$PATH` as well.
+**Note #2**: `source commands.sh` only sets the `search` function as a terminal command for the current terminal session. You'd need to rerun on every new terminal session. 
+
+To have the command persist, add the *open_image_websites* directory to `$PATH` as well.
 
 
 
@@ -30,7 +32,7 @@ To run the script, type in `search <*term*>`
 
 
 
-## 1st stage, Completed on Dec 4th, 2019:
+## Functionality
 Script will open up these websites:
 
 - https://www.upsplash.com
@@ -47,13 +49,17 @@ The program will then terminate.
 
 
 ### Potential Developments
-1. Can't seem to autosearch:
+1st stage, completed Dec 4th, 2019.
+
+Next-level functionality:
+
+1. Figure out how to autosearch these sites:
 	- https://www.pexels.com
 	- https://www.reshot.com
 	
-	Trying to retrieve their input boxes gives an *"Element not interactable"* message.
-	Tried `find_element_by_css_selector` instead of `find_elements_by_xpath`, to no avail.
+	Trying to retrieve their input boxes gives an *"Element not interactable"* error message.
+	Tried Python's `find_element_by_css_selector` instead of `find_elements_by_xpath`, to no avail.
 
 2. Next-level functionality: Allow the user to re-search all the sites for a new term / phrase. Don't terminate until the user **quits**.
 
-	(i.e. user didn't find a picture that fit his/her needs on the initial search)
+	(i.e. need to run more searches)
