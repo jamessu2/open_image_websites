@@ -52,13 +52,13 @@ and autosearch each site for the desired term/phrase, then terminate.
 
 Next-level functionality:
 
-1. Figure out how to autosearch these sites:
+1. Allow the user to re-search all the sites for a new term / phrase. Don't terminate until the user **quits**.
+
+	(i.e. need to run more searches)
+
+2. Figure out how to autosearch these sites:
 	- https://www.pexels.com
 	- https://www.reshot.com
 	
 	Trying to retrieve their input boxes gives an *"Element not interactable"* error message.
 	Tried Python's `find_element_by_css_selector` instead of `find_elements_by_xpath`, to no avail.
-
-2. Next-level functionality: Allow the user to re-search all the sites for a new term / phrase. Don't terminate until the user **quits**.
-
-	(i.e. need to run more searches)
