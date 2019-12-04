@@ -17,13 +17,13 @@ pip install -r requirements.txt
 source open_image_websites.sh
 ```
 
-**Note #1**: You need to change the file path in *open_image_websites.sh* to your own directory path.
+**Note #1**: You need to change the directory path in *open_image_websites.sh* to your own directory path.
 
-**Note #2**: You also need to install the *"Latest stable release"* version of [chromedriver](https://chromedriver.chromium.org/), and add it to `$PATH`.
+**Note #2**: You need to install the *"Latest stable release"* version of [chromedriver](https://chromedriver.chromium.org/), and add it to `$PATH`.
 
-**Note #3**: `source open_image_websites.sh` only sets the `search` function as a terminal command for the current terminal session. (You'd need to rerun on every new terminal session.) And, it only works if you're in the *open_image_websites* directory.
+**Note #3**: The `source open_image_websites.sh` command only works if you're in the *open_image_websites* directory. Also, it only sets `search` as a Terminal command for the current Terminal session. (You'd need to rerun on every new Terminal session.)
 
-To have the `search` command persist, add the *open_image_websites* directory to `$PATH`, as well as the `source open_image_websites.sh` command.
+To have the `search` command persist, add the *open_image_websites* directory to `$PATH`, as well as the `source open_image_websites.sh` command to *.bash_profile* / *.bashrc* (probably located in your ~ directory).
 
 
 
