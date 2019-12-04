@@ -25,7 +25,8 @@ Requirements:
 
 
 
-
+Note to include in instructions: need to pip install selenium, 
+	and also download chromedriver
 
 
 
