@@ -25,6 +25,7 @@ source open_image_websites.sh
 
 - To have the `search` command persist, add the *open_image_websites* directory to `$PATH`, as well as the `source open_image_websites.sh` command to *.bash_profile* / *.bashrc* (probably located in your ~ directory).
 
+**Note #4**: You need **Python 3** installed.
 
 
 ## Usage
